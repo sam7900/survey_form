@@ -1,0 +1,78 @@
+<html>
+<head>
+
+  </head>
+
+<body>
+  <h1 id="title"> Hobby survey form</h1>
+  <p id="description">
+    Thank you for sharing your hobbies</p>
+
+ <form id="survey-form">
+   <label id="name-label"> Name:</label>
+     <input
+     type="text"
+      name="name"
+      id="name"
+      required placeholder="First Name Last Name"> <br>
+
+     <label id="email-label"> Email address </label>
+     <input
+     type="email"
+     name="email"
+     id="email"
+     required placeholder="most used email"><br>
+
+     <label id="number-label">Number of hobbies</label>
+     <input
+     type="number"
+     name="Number of hobbies"
+     id="number"
+     min="2"
+     max="9"
+     required placeholder="Number of hobbies"><br>
+
+     <div>
+       <p>Which is your favourate hobbie?<p>
+         <select
+         id="dropdown"
+         name="top hobbies in the world">
+         <option value="select">select</option>
+         <option value="travelling">Travelling</option>
+         <option value="reading">Reading</option>
+         <option value="music">Music</option>
+         <option value="crafting">Crafting</option>
+         <option value="gardening">Gardening</option>
+         <option value="cooking">Cooking</option>
+         </select>
+
+         <div id="final-hobbies">
+           <p> Will you dedicate more of your time to your hobbies?</p>
+           <input type="radio" name="decision" value="yes"> Yes<br>
+           <input type="radio" name="decision" value="never say never"> Never say Never<br>
+           </div>
+
+           <div>
+             <p> How many more hours will you dedicate to your hobbies daily?</p>
+             <input type="checkbox" value="try to reach 1">try to reach 1<br>
+             <input type="checkbox" value="1">1<br>
+             <input type="checkbox" value="2">2<br>
+             <input type="checkbox" value="3">3<br>
+             <input type="checkbox" value="4">4<br>
+             <input type="checkbox" value="5">5<br>
+             </div>
+
+             <label id="additional-hobbies">Some more hobbies to add:</label>
+             <textarea placeholder="additional hobbies"> </textarea><br>
+
+             <input type="submit" id="submit">
+             </form>
+
+
+
+
+
+
+  </body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
